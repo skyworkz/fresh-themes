@@ -8,11 +8,11 @@ html, body, main, section, header, ul, p, h1, h2, h3 {
 
 ::selection {
   color: #fff;
-  background: #e48a8a; /* WebKit/Blink Browsers */
+  background: #4682b4; /* WebKit/Blink Browsers */
 }
 ::-moz-selection {
   color: #fff;
-  background: #e48a8a; /* Gecko Browsers */
+  background: #4682b4; /* Gecko Browsers */
 }
 
 p::selection {
@@ -64,7 +64,7 @@ table {
 
 td:first-child {
   letter-spacing: 0;
-  color: #bd5b5b;
+  color: #4682b4;
   font-size: 20px;
 }
 
