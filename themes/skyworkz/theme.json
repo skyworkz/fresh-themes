@@ -1,0 +1,27 @@
+{
+  "title": "skyworkz",
+  "description": "Custom resume for Skyworkz engineers",
+  "author": "bastichelaar <bas@skyworkz.nl> (https://github.com/bastichelaar)",
+  "engine": "handlebars",
+  "inherits": {
+    "txt": "basis",
+    "md": "basis"
+  },
+  "colors": {
+    "hyperlink": "#4682b4"
+  },
+  "fonts": {
+    "all": {
+      "default": [ "Poppins", "sans-serif" ],
+      "heading1": [ "Poppins", "Helvetica Neue", "Helvetica", "Lato", "sans-serif" ],
+      "heading2": [ "Helvetica Neue", "Helvetica", "Lato", "sans-serif" ]
+    },
+    "doc": {
+      "title": "Poppins",
+      "heading1": "Poppins",
+      "heading2": "Poppins",
+      "heading3": "Poppins",
+      "default": "Poppins"
+    }
+  }
+}
