@@ -126,23 +126,28 @@ p, li {
   margin-top: 3px;
 }
 
-.location {
-  border: #e2aaaa dashed 1px;
+.location, .keyword {
+  border: #F6AE2D dashed 1px;
   background-color: #ffffff;
   padding: 3px 6px;
   border-radius: 6px;
-  float: right;
   margin-right: 5px;
-  float: right;
   font-size: 85%;
   color: #717171;
-  font-weight: 600;
+  font-weight: 500;
   margin-top: 3px;
 }
 
-span.keywords {
-  font-size: 12px;
-  color: #B16666;
+.location {
+  float: right;
+}
+
+.keyword {
+  float: left;
+}
+
+.keywords {
+  float: right;
 }
 
 thead {
@@ -205,7 +210,7 @@ header > span.fa {
 }
 
 #references > p, #references > p > a {
-  color: #961e1e;
+color: #4682b4;
   text-align: center;
   margin: 30px;
   font-weight: bold;
