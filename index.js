@@ -14,6 +14,7 @@ Mount individual themes onto the module object for convenience.
       modern: require('./themes/modern/theme.json'),
       positive: require('./themes/positive/theme.json'),
       skyworkz: require('./themes/skyworkz/theme.json')
+      skyworkznl: require('./themes/skyworkznl/theme.json')
     }
   };
 

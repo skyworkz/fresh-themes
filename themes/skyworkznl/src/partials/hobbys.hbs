@@ -1,0 +1,18 @@
+{{#section "interests"}}
+<hr>
+<section id="interests">
+  {{#> header-interests }}
+    {{> header-icon _title="HOBBY'S" _section="hobby's" _hdricon=(lookup . '_icon') }}
+  {{/header-interests}}
+  {{#each r.interests}}
+    {{#> body-interests }}
+    <div>
+    <h3><em>{{{ name }}}</em></h3>
+    <span class="tenure">{{date date 'YYYY' }}</span>
+    {{{ summary }}}
+    {{> highlights }}
+    </div>
+    {{/body-interests}}
+  {{/each}}
+</section>
+{{/section}}

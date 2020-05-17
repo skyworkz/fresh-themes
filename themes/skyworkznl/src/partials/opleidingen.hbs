@@ -2,16 +2,17 @@
 <hr>
 <section id="education">
   {{#> header-education }}
-    {{> header-icon _title="EDUCATION" _section="education" _hdricon=(lookup . '_icon') }}
+    {{> header-icon _title="OPLEIDINGEN" _section="opleidingen" _hdricon=(lookup . '_icon') }}
   {{/header-education}}
   {{#each r.education.history}}
     {{#> body-education }}
     <div>
       <h3>{{#if title}}<em>{{{ title }}}</em>, {{/if}}{{{ institution }}}</h3>
       <span class="tenure">{{dateRange .}}</span>
+      {{#if location}}<div class="location">{{location}}</div>{{/if}}
       {{{ summary }}}
       {{> highlights }}
-      {{#if curriculum}}<span class="keywords">{{#each curriculum}}{{{ . }}} {{/each}}</span>{{/if}}
+      {{#if curriculum}}<div class="keywords">{{#each curriculum}}<div class="keyword">{{{ . }}}</div>{{/each}}</div>{{/if}}
     </div>
     {{/body-education}}
   {{/each}}

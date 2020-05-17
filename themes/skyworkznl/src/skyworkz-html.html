@@ -11,7 +11,7 @@
   <body class="bg-hero">
     <main>
       <header>
-        <a href="/" class="navbar-brand"><img src="https://skyworkz.nl/img/logo_text_right.svg" alt="" class="img-fluid"></a><br />
+        <a href="/" class="navbar-brand"><img src="https://skyworkz.nl/img/logo/logo_text_right.svg" alt="" class="img-fluid"></a><br />
         <h1>{{{initialWords r.name }}} <span style="color: #4682b4;">{{{lastWord r.name }}}</span></h1>
         <span class="label">{{{ r.info.label }}}</span>
         <p id="contact">
@@ -36,47 +36,47 @@
         icon into the global partial. For this theme, we're using Font Awesome.
       -->}}
 
-      {{#*inline "icon-skills"}}<i class="fa fa-lg fa-code"></i>{{/inline}}
+      {{#*inline "icon-skills"}}<span class="fa fa-lg fa-code"></span>{{/inline}}
       {{> skills _icon="icon-skills"}}
 
       {{#*inline "icon-employment"}}<span class="fa fa-lg fa-building"></span>{{/inline}}
-      {{> employment _icon="icon-employment"}}
+      {{> werkervaring _icon="icon-employment"}}
 
       {{#*inline "icon-projects"}}<span class="fa fa-lg fa-star"></span>{{/inline}}
-      {{> section/projects _icon="icon-projects"}}
+      {{> projecten _icon="icon-projects"}}
 
       {{#*inline "icon-education"}}<span class="fa fa-lg fa-mortar-board"></span>{{/inline}}
-      {{> education _icon="icon-education"}}
+      {{> opleidingen _icon="icon-education"}}
 
       {{#*inline "icon-affiliation"}}<span class="fa fa-lg fa-share-alt"></span>{{/inline}}
-      {{> section/affiliation _icon="icon-affiliation"}}
+      {{> affiliation _icon="icon-affiliation"}}
 
       {{#*inline "icon-service"}}<span class="fa fa-lg fa-child"></span>{{/inline}}
       {{> service _icon="icon-service"}}
 
       {{#*inline "icon-extracurricular"}}<span class="fa fa-lg fa-child"></span>{{/inline}}
-      {{> extracurricular _icon="icon-extracurricular"}}      
+      {{> extracurriculair _icon="icon-extracurricular"}}      
 
       {{#*inline "icon-samples"}}<span class="fa fa-lg fa-share"></span>{{/inline}}
-      {{> section/samples _icon="icon-samples"}}
+      {{> samples _icon="icon-samples"}}
 
       {{#*inline "icon-writing"}}<span class="fa fa-lg fa-pencil"></span>{{/inline}}
-      {{> section/writing _icon="icon-writing"}}
+      {{> publicaties _icon="icon-writing"}}
 
       {{#*inline "icon-reading"}}<span class="fa fa-lg fa-book"></span>{{/inline}}
-      {{> section/reading _icon="icon-reading"}}
+      {{> boeken _icon="icon-reading"}}
 
       {{#*inline "icon-recognition"}}<span class="fa fa-lg fa-trophy"></span>{{/inline}}
-      {{> section/recognition _icon="icon-recognition"}}
+      {{> erkenning _icon="icon-recognition"}}
 
       {{#*inline "icon-speaking"}}<span class="fa fa-lg fa-users"></span>{{/inline}}
-      {{> section/speaking _icon="icon-speaking"}}
+      {{> talks _icon="icon-speaking"}}
 
       {{#*inline "icon-testimonials"}}<span class="fa fa-lg fa-quote-left"></span>{{/inline}}
       {{> testimonials _icon="icon-testimonials"}}
 
       {{#if r.references}}
-      {{#section "references"}}
+      {{#section "referenties"}}
       <section id="references">
         {{#if r.contact.email}}
         <p><a href="mailto:{{{ RAW.contact.email }}}">References available on request</a></p>
@@ -88,7 +88,7 @@
       {{/if}}
 
       {{#*inline "icon-interests"}}<span class="fa fa-lg fa-bicycle"></span>{{/inline}}
-      {{> interests _icon="icon-interests"}}
+      {{> hobbys _icon="icon-interests"}}
 
     </main>
   </body>
