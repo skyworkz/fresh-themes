@@ -1,9 +1,9 @@
 html, body, main, section, header, ul, p, h1, h2, h3 {
   font-family: {{{fontList 'default'}}};
   font-size: 14px;
-  line-height: 1.4;
   margin: 0; padding: 0;
   display: block;
+  color: #2f4858;
 }
 
 ::selection {
@@ -19,13 +19,17 @@ p::selection {
   color: #fff;
 }
 
+p {
+  padding-bottom: 1em;
+}
+
 a {
   color: #{{color 'hyperlink'}};
   text-decoration: none;
 }
 
 a:visited {
-  color: #7B0796;
+  color: #{{color 'hyperlink'}};
 }
 
 a:hover {
@@ -34,12 +38,12 @@ a:hover {
 
 h1 {
   text-transform: uppercase;
-  font-size:
+  font-size: 2em;
 }
 
 h2 {
   text-transform: uppercase;
-  color: #898989;
+  color: #4682b4;
   font-size: 2em;
   position: relative;
   font-weight: 400;
@@ -60,12 +64,12 @@ h3 {
 table {
   width: 100%;
   text-transform: uppercase;
+  margin-top: 1em;
 }
 
 td:first-child {
-  letter-spacing: 0;
-  color: #4682b4;
-  font-size: 20px;
+  letter-spacing: 2px;
+  font-size: 1.1em;
 }
 
 td:last-child {
@@ -100,7 +104,7 @@ section > header {
 }
 
 p + ul {
-  margin: 1em;
+  margin: 0 1em 1em 1em;
 }
 
 ul {
@@ -121,7 +125,7 @@ p, li {
   background-color: #F5F5F5;
   border-radius: 6px;
   padding: 4px 6px;
-  font-size: 85%;
+  font-size: 0.75em;
   font-weight: 600;
   margin-top: 3px;
 }
@@ -132,8 +136,8 @@ p, li {
   padding: 3px 6px;
   border-radius: 6px;
   margin-right: 5px;
-  font-size: 85%;
-  color: #717171;
+  font-size: 0.75em;
+  color: #2f4858;
   font-weight: 500;
   margin-top: 3px;
 }
@@ -165,7 +169,7 @@ h1 {
 }
 
 h1, h2, .label {
-  font-size: 2.5em;
+  font-size: 2em;
   text-transform: uppercase;
   font-weight: 300;
   font-family: {{{fontList 'heading1'}}}
@@ -186,8 +190,8 @@ header > span.fa {
   margin-right: 3px;
   position: absolute;
   width: 40px;
-  top: 14px;
-  font-size: 30px;
+  top: 8px;
+  font-size: 2em;
   /*transform: translateX(-110%); PDF no likey */
   margin-left: -50px;
   color: #DADADA;
@@ -199,21 +203,21 @@ header > span.fa {
 }
 
 #summary {
-  color: #717171;
-  font-size: 1.25em;
+  color: #2f4858;
+  font-size: 1.2em;
   margin-top: 6em;
 }
 
-#skills td {
-  padding-top: 7px;
-  padding-bottom: 7px;
+#summary p {
+  color: #2f4858;
+  font-size: 1em;
 }
 
 #references > p, #references > p > a {
-color: #4682b4;
+  color: #4682b4;
   text-align: center;
   margin: 30px;
   font-weight: bold;
-  letter-spacing: 0;
+  letter-spacing: 2px;
   text-transform: uppercase;
 }
