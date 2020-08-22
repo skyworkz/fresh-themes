@@ -1,0 +1,16 @@
+{{#section "languages"}}
+<hr>
+<section id="languages">
+  {{#> header-languages }}
+    {{> header-icon _title="languages" _section="languages" _hdricon=(lookup . '_icon') }}
+  {{/header-languages}}
+  {{#each r.languages}}
+    {{#> body-languages }}
+    <div>
+    <h3><em>{{{ title }}}</em></h3>
+    {{{ level }}}
+    </div>
+    {{/body-languages}}
+  {{/each}}
+</section>
+{{/section}}

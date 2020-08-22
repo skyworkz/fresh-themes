@@ -55,7 +55,7 @@
           <w:rPr>
             <w:sz w:val="16"/>
           </w:rPr>
-          <w:t> - </w:t>
+          <w:t>  </w:t>
         </w:r>
         <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0">
           <w:rPr>
@@ -67,7 +67,7 @@
           <w:rPr>
             <w:sz w:val="16"/>
           </w:rPr>
-          <w:t> - </w:t>
+          <w:t>  </w:t>
         </w:r>
         <w:hlink w:dest="{{ r.contact.website }}">
           <w:r wsp:rsidRPr="003876BF">

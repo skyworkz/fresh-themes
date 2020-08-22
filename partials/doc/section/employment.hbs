@@ -40,10 +40,33 @@
     <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
       <w:pPr>
         <w:rPr>
+          <w:spacing w:after="120"/>
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
       {{{wpml summary true}}}
+    </w:p>
+
+    {{#if highlights}}
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+      </w:r>
+    </w:p>
+
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+      <w:t>Highlights:</w:t>
+      </w:r>
     </w:p>
 
     {{#each highlights }}
@@ -63,6 +86,44 @@
       {{{wpml this true}}}
     </w:p>
     {{/each}}
+
+    {{/if}}
+
+    {{#if keywords}}
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+      </w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:rPr>
+          <w:color w:val="A5A5A5"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+      </w:pPr>
+      {{#each keywords }}
+      <w:t><w:r><w:rPr><w:color w:val="A5A5A5"/><w:sz w:val="16"/><w:sz-cs w:val="20"/><w:bdr w:val="dotted" w:sz="4" w:space="0" wx:bdrwidth="10" w:color="FFC000"/></w:rPr><w:t> {{ this }} </w:t></w:r></w:t>
+      <w:t><w:r><w:rPr></w:rPr><w:t>  </w:t></w:r></w:t>
+      {{/each}}
+    </w:p>
+    
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+      </w:r>
+    </w:p>
+    {{/if}}
+
 
   </wx:sub-section>
 
