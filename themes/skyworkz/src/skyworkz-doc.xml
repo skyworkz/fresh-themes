@@ -70,6 +70,11 @@
       {{/inline}}
       {{#section "education"}}{{> section/education }}{{/section}}
 
+      {{#*inline "header-recognition"}}
+      {{> header-icon _title="CERTIFICATION" _section="recognition" _icon="pict/rec" }}
+      {{/inline}}
+      {{#section "recognition"}}{{> section/recognition }}{{/section}}
+
       {{#*inline "header-service"}}
       {{> header-icon _title="SERVICE" _section="service" _icon="pict/srv" }}
       {{/inline}}
@@ -89,11 +94,6 @@
       {{> header-icon _title="READING" _section="reading" _icon="pict/book" }}
       {{/inline}}
       {{#section "reading"}}{{> section/reading }}{{/section}}
-
-      {{#*inline "header-recognition"}}
-      {{> header-icon _title="RECOGNITION" _section="recognition" _icon="pict/rec" }}
-      {{/inline}}
-      {{#section "recognition"}}{{> section/recognition }}{{/section}}
 
       {{#*inline "header-speaking"}}
       {{> header-icon _title="SPEAKING" _section="speaking" _icon="pict/group" }}
