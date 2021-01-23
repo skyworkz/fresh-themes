@@ -43,7 +43,7 @@ h1 {
 
 h2 {
   text-transform: uppercase;
-  color: #4682b4;
+  color: #00ACA9;
   font-size: 2em;
   position: relative;
   font-weight: 400;
@@ -131,13 +131,13 @@ p, li {
 }
 
 .location, .keyword {
-  border: #F6AE2D dashed 1px;
+  border:#00ACA9 dashed 1px;
   background-color: #ffffff;
   padding: 3px 6px;
   border-radius: 6px;
   margin-right: 5px;
   font-size: 0.75em;
-  color: #2f4858;
+  color: #00ACA9;
   font-weight: 500;
   margin-top: 3px;
 }
@@ -214,7 +214,7 @@ header > span.fa {
 }
 
 #references > p, #references > p > a {
-  color: #4682b4;
+  color: #00ACA9;
   text-align: center;
   margin: 30px;
   font-weight: bold;
