@@ -34,7 +34,7 @@
             <w:rPr>
               <w:sz w:val="18"/>
               <w:caps/>
-              <w:color w:val="989898"/>
+              <w:color w:val="00ACA9"/>
             </w:rPr>
             <w:t>{{ name }}</w:t>
           </w:r>

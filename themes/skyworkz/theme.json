@@ -8,20 +8,20 @@
     "md": "basis"
   },
   "colors": {
-    "hyperlink": "4682b4"
+    "hyperlink": "00ACA9"
   },
   "fonts": {
     "all": {
       "default": [ "Poppins", "sans-serif" ],
-      "heading1": [ "Poppins", "Helvetica Neue", "Helvetica", "Lato", "sans-serif" ],
-      "heading2": [ "Helvetica Neue", "Helvetica", "Lato", "sans-serif" ]
+      "heading1": [ "Maven Pro", "Poppins", "Helvetica", "Lato", "sans-serif" ],
+      "heading2": [ "Maven Pro", "Poppins", "Helvetica", "Lato", "sans-serif" ]
     },
     "doc": {
-      "title": "Maven Pro",
-      "heading1": "Poppins",
-      "heading2": "Poppins",
-      "heading3": "Poppins",
-      "default": "Poppins"
+      "title": "Calibri",
+      "heading1": "Calibri",
+      "heading2": "Calibri",
+      "heading3": "Calibri",
+      "default": "Calibri"
     }
   }
 }

@@ -3,16 +3,16 @@ html, body, main, section, header, ul, p, h1, h2, h3 {
   font-size: 14px;
   margin: 0; padding: 0;
   display: block;
-  color: #2f4858;
+  color: #1D1D1B;
 }
 
 ::selection {
   color: #fff;
-  background: #4682b4; /* WebKit/Blink Browsers */
+  background: #00ACA9; /* WebKit/Blink Browsers */
 }
 ::-moz-selection {
   color: #fff;
-  background: #4682b4; /* Gecko Browsers */
+  background: #00ACA9; /* Gecko Browsers */
 }
 
 p::selection {
@@ -37,8 +37,9 @@ a:hover {
 }
 
 h1 {
-  text-transform: uppercase;
-  font-size: 2em;
+  font-size: 2.5em;
+  font-weight: 600;
+  float: left;
 }
 
 h2 {
@@ -164,14 +165,9 @@ main > header {
   margin-bottom: 1em;
 }
 
-h1 {
-  float: left;
-}
-
-h1, h2, .label {
-  font-size: 2em;
-  text-transform: uppercase;
-  font-weight: 300;
+.label {
+  font-size: 2.5em;
+  font-weight: 400;
   font-family: {{{fontList 'heading1'}}}
 }
 

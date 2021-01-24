@@ -37,8 +37,8 @@ a:hover {
 }
 
 h1 {
-  text-transform: uppercase;
-  font-size: 2em;
+  font-size: 3em;
+  font-weight: 600;
 }
 
 h2 {
@@ -214,7 +214,7 @@ header > span.fa {
 }
 
 #references > p, #references > p > a {
-  color: #4682b4;
+  color: #00ACA9;
   text-align: center;
   margin: 30px;
   font-weight: bold;

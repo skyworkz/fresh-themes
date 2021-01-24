@@ -21,7 +21,7 @@
         </w:r>
         <w:r>
           <w:rPr>
-            <w:color w:val="4682b4"/>
+            <w:color w:val="00ACA9"/>
           </w:rPr>
           <w:t>{{lastWord r.name }}</w:t>
         </w:r>
