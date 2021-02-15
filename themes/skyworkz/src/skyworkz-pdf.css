@@ -37,17 +37,19 @@ a:hover {
 }
 
 h1 {
+  font-family: {{{fontList 'heading1'}}};
   font-size: 2.5em;
   font-weight: 600;
   float: left;
 }
 
 h2 {
+  font-family: {{{fontList 'heading1'}}};
   text-transform: uppercase;
   color: #00ACA9;
   font-size: 2em;
   position: relative;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 h3, .tenure {
