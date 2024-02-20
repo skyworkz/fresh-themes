@@ -12,16 +12,16 @@
   },
   "fonts": {
     "all": {
-      "default": [ "Poppins", "sans-serif" ],
-      "heading1": [ "Maven Pro", "Poppins", "Helvetica", "Lato", "sans-serif" ],
-      "heading2": [ "Maven Pro", "Poppins", "Helvetica", "Lato", "sans-serif" ]
+      "default": [ "sans-serif" ],
+      "heading1": [ "sans-serif" ],
+      "heading2": [ "sans-serif" ]
     },
     "doc": {
-      "title": "Calibri",
-      "heading1": "Calibri",
-      "heading2": "Calibri",
-      "heading3": "Calibri",
-      "default": "Calibri"
+      "title": "sans-serif",
+      "heading1": "sans-serif",
+      "heading2": "sans-serif",
+      "heading3": "sans-serif",
+      "default": "sans-serif"
     }
   }
 }
