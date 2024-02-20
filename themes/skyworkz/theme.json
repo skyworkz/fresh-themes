@@ -12,16 +12,16 @@
   },
   "fonts": {
     "all": {
-      "default": [ "sans-serif" ],
-      "heading1": [ "sans-serif" ],
-      "heading2": [ "sans-serif" ]
+      "default": [ "Proxima Nova" ],
+      "heading1": [ "Proxima Nova" ],
+      "heading2": [ "Proxima Nova" ]
     },
     "doc": {
-      "title": "sans-serif",
-      "heading1": "sans-serif",
-      "heading2": "sans-serif",
-      "heading3": "sans-serif",
-      "default": "sans-serif"
+      "title": "Proxima Nova",
+      "heading1": "Proxima Nova",
+      "heading2": "Proxima Nova",
+      "heading3": "Proxima Nova",
+      "default": "Proxima Nova"
     }
   }
 }
